@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+
+# Build output
+dist
+dist-ssr
+*.local
+
+# Rust/Tauri build artifacts (very large, not needed in repo)
+src-tauri/target/
+
+# Editor directories and files
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment / Secrets — NEVER commit these
+.env.*.local
+
+# Tauri generated icon source copy
+src-tauri/icons/icon_source.png
+
+# macOS
+.DS_Store
+**/.DS_Store
+config.bat
